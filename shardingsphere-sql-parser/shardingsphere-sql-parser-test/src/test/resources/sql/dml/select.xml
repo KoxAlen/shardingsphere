@@ -1525,4 +1525,15 @@
             </and-predicate>
         </where>
     </select>
+
+    <select sql-case-id="select_with_match_against" parameters="hello">
+        <projections start-index="7" stop-index="7">
+            <shorthand-projection start-index="7" stop-index="7" />
+        </projections>
+        <tables>
+            <simple-table name="t_order_item" start-index="14" stop-index="25" />
+        </tables>
+        <where start-index="27" stop-index="107">
+        </where>
+    </select>
 </sql-parser-test-cases>
